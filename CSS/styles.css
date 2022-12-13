@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+main{
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    background-color: #f00;
+    justify-content: space-around;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li{
+    margin: 10px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+span{
+    font-size: 24px;
+    padding: 4px;
+    background-color: #0f0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
